@@ -1,0 +1,19 @@
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4 ,fr);
+    background-color: linear-gradient(145deg,#0d47a1,#42a5f5);
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+#menu div{
+    text-align: center
+}
+
+#ecc{
+text-align: center;
+backgroud-color:#42a5f5;
+}

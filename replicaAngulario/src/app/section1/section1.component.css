@@ -1,0 +1,11 @@
+#sec1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px;
+    justify-content: center;
+}
+
+#grid-sec1 div{
+    border: 1px green;
+    height: 200px;
+}

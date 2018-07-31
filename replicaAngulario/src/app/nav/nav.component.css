@@ -1,13 +1,9 @@
-/* .navbar navbar-dark bg-dark mb-5{
-    background-color: #0062cc;
-} */
-
 .mb-5, .my-5 {
-    margin-bottom: 3rem!important;
+    /* margin-bottom: 3rem!important; */
 }
 
 .bg-dark {
-    background-color: #0062cc!important;
+    background-color: #0d47a1!important;
     
 }
 
@@ -28,9 +24,8 @@
     min-width: 150px;
     max-width: 240px;
     height: 100%;    
-    position: inherit;
+    position: relative;
 }
-
 input {
     color: #333;
     border: none;
