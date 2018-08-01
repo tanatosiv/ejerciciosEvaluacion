@@ -1,0 +1,9 @@
+.card{
+    border: 0px;
+    justify-content: space-around;
+    align-items:center;
+  }
+
+  .card h4{
+    color: #0d47a1;
+  }
