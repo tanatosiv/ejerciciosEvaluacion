@@ -3,41 +3,117 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 /* body {
   margin:0;
 } */
+
 .headerimage {   
   background: linear-gradient(145deg,#0d47a1,#42a5f5);
   height:400px;
   width:100%;
   background-size:cover;
   position: relative;
-  padding: 0;
+  padding: 20px;
   margin-top: 0%;
   z-index:-1;
   
+
 }
- #backshape .wrapper {
-  display:block;
-  float:left;
-  margin:50px auto 200px;
-  width:100%;
-  padding:0;
-  transform:skew(0deg,-5deg);
--ms-transform:skew(0deg,-10deg);
--webkit-transform:skew(0deg,-5deg); 
-} 
+#logo{
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: floralwhite;
+  
+}
 
 #backshape {
   z-index:1;
   display:block;
   float:left;
-  margin-top:-100px;
+  margin-top:-40px;
   width:100%;
   background:white;
   transform:skew(0deg,10deg);
 -ms-transform:skew(0deg,10deg); 
  -webkit-transform:skew(0deg,5deg);
+}
+
+ #backshape .wrapper {
+  display:block;
+  float:left;
+  margin:50px auto 100px;
+  width:100%;
+  padding:0 5%;
+  transform:skew(0deg,-5deg);
+-ms-transform:skew(0deg,-10deg);
+-webkit-transform:skew(0deg,-5deg); 
+} 
+#backshape #sec1{
+   display: flex;
+   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:center;
+  padding: 0px;
+  height: 50px;
+  min-width: 360px;
+  font-size: 14px;
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 48px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all .3s ease-in;
+  }
+
+  #backshape #buttom{
+    background-color: whitesmoke;
+    color: #0d47a1;
+
+  }
+
+  .card{
+    border: 0px;
+  }
+
+  .card h4{
+    color: #0d47a1;
+  }
+
+
+
+/* IE 9/*
+ -webkit-transform:skew
+/*Safari and Chrome */
+
+/* .product {
+  float:left;
+  width:29%;
+  min-height:200px;
+  background:blue;
+  margin:2%;
+  transform:skew(0deg,-5deg);
+-ms-transform:skew(0deg,-10deg);    
+ -webkit-transform:skew(0deg,0deg); 
+}  */
+
+
+
+button{
+  text-decoration: none;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 16px;
+  font-style: italic;
+  color:blue;
+  background-color:white;
+  border-radius: 15px;
+  border: 1px double gray;
 }
 
 

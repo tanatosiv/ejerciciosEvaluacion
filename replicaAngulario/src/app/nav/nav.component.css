@@ -2,8 +2,16 @@
     /* margin-bottom: 3rem!important; */
 }
 
+.navbar-brand
+  {
+    display: block;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+  }
+
 .bg-dark {
-    background-color: #0d47a1!important;
+    background-color: linear-gradient(145deg,#0d47a1,#42a5f5);
     
 }
 
@@ -39,8 +47,6 @@ input {
     -webkit-appearance: none;
 }
 
-
-
 .navbar-dark[_ngcontent-c1] .navbar-nav[_ngcontent-c1] .nav-link[_ngcontent-c1] {
     color: rgba(239, 241, 237, 0.952);
    
@@ -51,10 +57,3 @@ input {
     
 }
 
-
-
-/* .mat-toolbar.mat-primary {
-    background: #1976d2;
-    color: #fff;
-    padding: 0.5rem 1rem;
-} */
